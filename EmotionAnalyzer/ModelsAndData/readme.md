@@ -1,4 +1,6 @@
-﻿**These Files are taken from source, with a Free Research usage license. Below is the details about the license.**
+**These Files are taken from source, with a Free Research usage license. Below is the details about the license.**
+
+
 **ფაილები აღებულია წყაროდან კვლევისთვის უფასო ლიცენზიით. ქვემოთ მოცემულია კონკრეტული დეტალები ლიცენზიასთან დაკავშირებით.**
 
 ************************************************************
