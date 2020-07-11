@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1169
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentiment-Emotion Analyzer", "EmotionAnalyzer\Sentiment-Emotion Analyzer.csproj", "{418A33EB-54C2-48A2-8089-C5BBD630F588}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{C429B878-78FE-43B7-B672-55C8E5372FE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{418A33EB-54C2-48A2-8089-C5BBD630F588}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{418A33EB-54C2-48A2-8089-C5BBD630F588}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{418A33EB-54C2-48A2-8089-C5BBD630F588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C429B878-78FE-43B7-B672-55C8E5372FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C429B878-78FE-43B7-B672-55C8E5372FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C429B878-78FE-43B7-B672-55C8E5372FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C429B878-78FE-43B7-B672-55C8E5372FE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

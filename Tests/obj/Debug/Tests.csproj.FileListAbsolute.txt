@@ -1,0 +1,19 @@
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Tests.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Tests.pdb
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Sentiment-Emotion Analyzer.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\OpenNLP.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\SharpEntropy.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\SharpWordNet.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Sentiment-Emotion Analyzer.pdb
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\obj\Debug\Tests.csprojAssemblyReference.cache
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\obj\Debug\Tests.csproj.CopyComplete
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\obj\Debug\Tests.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Tests\obj\Debug\Tests.pdb
