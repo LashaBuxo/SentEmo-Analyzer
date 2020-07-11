@@ -1,0 +1,9 @@
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\bin\Debug\EmotionAnalyzer.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\bin\Debug\EmotionAnalyzer.pdb
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\bin\Debug\OpenNLP.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\bin\Debug\SharpEntropy.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\bin\Debug\SharpWordNet.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\obj\Debug\EmotionAnalyzer.csproj.CoreCompileInputs.cache
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\obj\Debug\EmotionAnalyzer.csproj.CopyComplete
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\obj\Debug\EmotionAnalyzer.dll
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\obj\Debug\EmotionAnalyzer.pdb

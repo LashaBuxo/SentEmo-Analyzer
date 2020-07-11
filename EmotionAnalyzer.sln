@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1169
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmotionAnalyzer", "EmotionAnalyzer\EmotionAnalyzer.csproj", "{418A33EB-54C2-48A2-8089-C5BBD630F588}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentiment-Emotion Analyzer", "EmotionAnalyzer\Sentiment-Emotion Analyzer.csproj", "{418A33EB-54C2-48A2-8089-C5BBD630F588}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

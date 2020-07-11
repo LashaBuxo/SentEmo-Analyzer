@@ -1,7 +1,13 @@
-**These Files are taken from source, with a Free Research usage license. Below is the details about the license.**
+**
+These Files are taken from source, with a Free Research usage license. Below is the details about the license.
+For working with senteces we are also using free open library: http://opennlp.apache.org/
+**
 
 
-**ფაილები აღებულია წყაროდან კვლევისთვის უფასო ლიცენზიით. ქვემოთ მოცემულია კონკრეტული დეტალები ლიცენზიასთან დაკავშირებით.**
+**
+ფაილები აღებულია წყაროდან კვლევისთვის უფასო ლიცენზიით. ქვემოთ მოცემულია კონკრეტული დეტალები ლიცენზიასთან დაკავშირებით.
+წინადადებებთან მუშაობისთვის, როგორიცაა: სეგმენტაცია, მეტყველების ნაწილებად დაშლა და ა.შ. ჩვენ ვიყენებთ უფასო ბიბლიოთეკას http://opennlp.apache.org/
+**
 
 ************************************************************
 ************************************************************
