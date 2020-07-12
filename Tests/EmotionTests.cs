@@ -18,7 +18,7 @@ namespace Tests
             Assert.IsTrue(result.Anger <= 0.15);
             Assert.IsTrue(result.Disgust <= 0.15);
             Assert.IsTrue(result.Sadness <= 0.15);
-
+            Console.WriteLine(result.ToJson());
         }
 
         //Test For Happy Popular Lyrics
