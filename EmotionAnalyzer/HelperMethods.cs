@@ -7,9 +7,15 @@ using System.IO;
 using System.Reflection;
 namespace SentEmo
 {
+    /// <summary>
+    /// Class contains static general methods
+    /// </summary>
     class HelperMethods
     {
-        public static string low_registry(string s)
+        /// <summary>
+        /// Converts string to low registry string
+        /// </summary>
+        public static string ToLowRegistry(string s)
         {
             string new_s = "";
             for (int i = 0; i < s.Length; i++)
@@ -20,18 +26,23 @@ namespace SentEmo
             return new_s;
         }
 
-        public static void CreateResourceInFileSystem(string name)
+        /// <summary>
+        /// Creates Embedded resource with name: resourceName, in FileSystem
+        /// Which are being used lated for Library Semantic worked in openNLP namespace
+        /// </summary>
+        public static void CreateResourceInFileSystem(string resourceName)
         {
-            using (var fileStream = File.Create(name))
+            using (var fileStream = File.Create(resourceName))
             {
-                using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SentEmo.ModelsAndData." + name))
+                using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SentEmo.ModelsAndData." + resourceName))
                 {
                     stream.CopyTo(fileStream);
                 }
             }
         }
 
-        public static Dictionary<string, bool> import_positive_words()
+        #region importers_from_resources
+        public static Dictionary<string, bool> Import_PositiveWords()
         {
             StreamReader input;
             var positive_words = new Dictionary<string, bool>(); //here will be placed positive words
@@ -57,7 +68,7 @@ namespace SentEmo
                 throw new Exception("Positive Words format is not correct", e);
             }
         }
-        public static Dictionary<string, bool> import_negative_words()
+        public static Dictionary<string, bool> Import_NegativeWords()
         {
             System.IO.StreamReader input;
             var negative_words = new Dictionary<string, bool>(); //here will be placed negative words
@@ -82,7 +93,7 @@ namespace SentEmo
                 throw e;
             }
         }
-        public static Dictionary<string, int[]> import_emotion_words()
+        public static Dictionary<string, int[]> Import_EmotionWords()
         {
             System.IO.StreamReader input;
             try
@@ -123,7 +134,7 @@ namespace SentEmo
             }
 
         }
-        public static Dictionary<string, int> import_inclusion_words()
+        public static Dictionary<string, int> Import_InclusiveWords()
         {
             System.IO.StreamReader input;
             try
@@ -152,7 +163,7 @@ namespace SentEmo
                 throw new Exception("EMotion Words format is not correct", e);
             }
         }
-        public static Dictionary<string, int> import_exclusion_words()
+        public static Dictionary<string, int> Import_ExclusionWords()
         {
             System.IO.StreamReader input;
             try
@@ -181,5 +192,6 @@ namespace SentEmo
                 throw new Exception("EMotion Words format is not correct", e);
             }
         }
+        #endregion
     }
 }

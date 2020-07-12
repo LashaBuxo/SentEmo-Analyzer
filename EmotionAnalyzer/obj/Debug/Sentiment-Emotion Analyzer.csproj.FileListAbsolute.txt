@@ -9,3 +9,4 @@ E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\obj\Debug\Senti
 E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\obj\Debug\Sentiment-Emotion Analyzer.csproj.CopyComplete
 E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\obj\Debug\Sentiment-Emotion Analyzer.dll
 E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\obj\Debug\Sentiment-Emotion Analyzer.pdb
+E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\EmotionAnalyzer\obj\Debug\Sentiment-Emotion Analyzer.csprojAssemblyReference.cache

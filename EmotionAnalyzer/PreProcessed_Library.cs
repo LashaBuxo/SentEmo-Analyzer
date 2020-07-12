@@ -8,13 +8,32 @@ using OpenNLP.Tools.Tokenize;
 using OpenNLP.Tools.PosTagger;
 namespace SentEmo
 {
+    /// <summary>
+    /// Library which contains all the
+    /// used preprocessed resources for analyze
+    /// </summary>
     class PreProcessed_Library
     {
         public bool isLibraryLoaded = false;
 
+        /// <summary>
+        /// NLP Objects/Tool which analyze
+        /// senteces/words by semantic rules
+        /// </summary>
         public EnglishMaximumEntropySentenceDetector sentenceDetector;
+
+        /// <summary>
+        /// NLP Objects/Tool which analyze
+        /// senteces/words by semantic rules
+        /// </summary>
         public EnglishMaximumEntropyTokenizer tokenizer;
+
+        /// <summary>
+        /// NLP Objects/Tool which analyze
+        /// senteces/words by semantic rules
+        /// </summary>
         public EnglishMaximumEntropyPosTagger posTagger;
+
 
         private Dictionary<string, bool> positive_words;
         private Dictionary<string, bool> negative_words;
@@ -22,6 +41,10 @@ namespace SentEmo
         private Dictionary<string, int> inclusion_values;
         private Dictionary<string, int> exclusion_values;
 
+
+        /// <summary>
+        /// Constructor of the library
+        /// </summary>
         public PreProcessed_Library()
         {
             positive_words = new Dictionary<string, bool>();
@@ -33,12 +56,15 @@ namespace SentEmo
             isLibraryLoaded = false;
         }
 
+
+        /// <summary>
+        /// Loads all the nescesary resources
+        /// for the library
+        /// </summary>
         public void LoadLibrary()
         {
             try
             {
-                //import models for divide text data into sentences,and sentences into single words(with syntax and etc.)
-                 
                 HelperMethods.CreateResourceInFileSystem("EnglishSD.nbin");
                 HelperMethods.CreateResourceInFileSystem("EnglishTok.nbin");
                 HelperMethods.CreateResourceInFileSystem("EnglishPOS.nbin");
@@ -47,11 +73,11 @@ namespace SentEmo
                 tokenizer = new EnglishMaximumEntropyTokenizer("EnglishTok.nbin");
                 posTagger = new EnglishMaximumEntropyPosTagger("EnglishPOS.nbin");
 
-                positive_words = HelperMethods.import_positive_words(); //so data of positive words
-                negative_words = HelperMethods.import_negative_words(); //data of negative words
-                emotion_words = HelperMethods.import_emotion_words();  //data of emotion words with 5 expression values
-                inclusion_values = HelperMethods.import_inclusion_words();  //data of inclusion with rate
-                exclusion_values = HelperMethods.import_exclusion_words();  //data of inclusion with rate
+                positive_words = HelperMethods.Import_PositiveWords(); //data of positive words
+                negative_words = HelperMethods.Import_NegativeWords(); //data of negative words
+                emotion_words = HelperMethods.Import_EmotionWords();  //data of emotion words with 5 expression values
+                inclusion_values = HelperMethods.Import_InclusiveWords();  //data of inclusion with rate
+                exclusion_values = HelperMethods.Import_ExclusionWords();  //data of inclusion with rate
 
                 isLibraryLoaded = true;
             } catch (Exception e)
@@ -61,6 +87,24 @@ namespace SentEmo
             }
         }
 
+        /// <summary>
+        /// Adding single data in Library
+        /// </summary>
+        /// <param name="word">
+        /// word which are being added in library
+        /// </param>
+        /// <param name="dataType">
+        /// Type of the data 
+        /// </param>
+        /// <param name="emotions">
+        /// If Included, corresponding Emotion array for word
+        /// </param>
+        /// <param name="value">
+        /// If Included, corresponding Inlusivity value for word
+        /// </param>
+        /// <returns>
+        /// The <see cref="byte"/>.
+        /// </returns>
         public void AddData(string word, PreProcessed_DataType dataType, int[] emotions = null, int value = 0)
         {
             switch (dataType)
@@ -85,21 +129,27 @@ namespace SentEmo
             }
         }
 
+
+ #region LibraryMethods
         public bool IsPositive(string word)
         {
+            word = HelperMethods.ToLowRegistry(word);
             return positive_words.ContainsKey(word);
         }
         public bool IsNegative(string word)
         {
+            word = HelperMethods.ToLowRegistry(word);
             return negative_words.ContainsKey(word);
         }
 
         public bool IsEmotionsAvaliable(string word)
         {
+            word = HelperMethods.ToLowRegistry(word);
             return emotion_words.ContainsKey(word);
         }
         public int[] GetEmotions(string word)
         {
+            word = HelperMethods.ToLowRegistry(word);
             if (!IsEmotionsAvaliable(word))
             {
                 throw new Exception("Word emotion data not available.");
@@ -109,16 +159,19 @@ namespace SentEmo
 
         public int GetInclusionValue(string word)
         {
+            word = HelperMethods.ToLowRegistry(word);
             if (inclusion_values.ContainsKey(word))
                 return inclusion_values[word];
             return 0;
         }
         public int GetExclusionValue(string word)
         {
+            word = HelperMethods.ToLowRegistry(word);
             if (exclusion_values.ContainsKey(word))
                 return exclusion_values[word];
             return 0;
         }
     }
+#endregion
 }
- 
+
