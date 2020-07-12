@@ -58,9 +58,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EmotionAnalyzer\Sentiment-Emotion Analyzer.csproj">
+    <ProjectReference Include="..\Sent-Emo Analyzer\Sent-Emo Analyzer.csproj">
       <Project>{418a33eb-54c2-48a2-8089-c5bbd630f588}</Project>
-      <Name>Sentiment-Emotion Analyzer</Name>
+      <Name>Sent-Emo Analyzer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
