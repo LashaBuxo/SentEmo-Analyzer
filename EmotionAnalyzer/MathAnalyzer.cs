@@ -6,9 +6,19 @@ using System.Threading.Tasks;
 
 namespace SentEmo
 {
+    /// <summary>
+    /// Class contains static methos
+    /// which are math-related calculations
+    /// regarding to sentiment-emotion analyze
+    /// </summary>
     class MathAnalyzer
-    { 
-        //from -1 to 1
+    {
+        /// <summary>
+        /// Calculates Sentiment Values
+        /// </summary> 
+        /// <returns>
+        /// Value from -1 to 1
+        /// </returns>
         public static double CalculateSentiment(EmotionState info, double pos, double neg, double incl, double excl, double syntax_value)
         {
 
@@ -34,6 +44,13 @@ namespace SentEmo
             } 
         }
 
+        /// <summary>
+        /// Calculates Emotion Values
+        /// </summary> 
+        /// <returns>
+        /// Fills values of emotion types in info variable.
+        /// Values are from 0 to 1.
+        /// </returns>
         public static EmotionState CalculateEmotions(EmotionState info, double syntax_value)
         {
             //about joy
@@ -58,6 +75,12 @@ namespace SentEmo
             return info;
         }
 
+        /// <summary>
+        /// Calculates Inclusion Value
+        /// </summary> 
+        /// <returns> 
+        /// Returns value from -1 to 1
+        /// </returns>
         public static double CalculateInclusion(EmotionState info, double incl, double excl, double syntax_value)
         {
             double result = 0;
@@ -84,6 +107,12 @@ namespace SentEmo
             }
         }
 
+        /// <summary>
+        /// Calculates Syntax Value
+        /// </summary> 
+        /// <returns> 
+        /// Returns value from 0 to 1
+        /// </returns>
         public static double SyntaxValue(string[] parts) //we are calculating syntax value by speech parts in the sentence
         {
             int cnt1 = 0, cnt2 = 0, cnt3 = 0;
@@ -101,7 +130,7 @@ namespace SentEmo
 
             return cnt1 / (parts.Count() * 1.0) / 10.0;
         }
-
+         
         public static double CustomPowerfunction(double max_value, double cnt)
         {
             double result = 0, current = max_value / 3;
