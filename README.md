@@ -1,6 +1,6 @@
 # Welcome to Sent-Emo Open Source  Project!
 
-Sent-Emo Analyzer is the open source library, which analyses given **English** text by emotion and its sentiment values. Below are the example projects and the materials used in project.
+Sent-Emo Analyzer is open source library, which analyses given **English** text by emotion and its sentiment values. Below are the example projects and the materials used in project.
 
 
 # How it Works?
