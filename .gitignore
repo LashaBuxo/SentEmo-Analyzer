@@ -1,3 +1,5 @@
 .vs/
-.TestResults/
+TestResults/
 EmotionAnalyzer/obj/
+Tests/bin/
+Tests/obj/
