@@ -93,7 +93,43 @@ Without you, I've got no hand…");
             Assert.IsFalse(result.Anger <= 0.15);
             Assert.IsFalse(result.Disgust <= 0.15);
             Assert.IsFalse(result.Sadness <= 0.15);
+        }
 
+        [TestMethod]
+        public void TestAuthentic()
+        {
+            SentEmoAnalyzer analyzer = new SentEmoAnalyzer();
+            analyzer.Initialize();
+
+            EmotionState result = analyzer.DoAnalysis(@"(Because I'm happy)
+Clap along if you feel like a room without a roof
+(Because I'm happy)
+Clap along if you feel like happiness is the truth
+(Because I'm happy)
+Clap along if you know what happiness is to you
+(Because I'm happy)
+Clap along if you feel like that's what you wanna do
+
+Here come bad news, talking this and that(Yeah!)
+Well, give me all you got, don't hold it back (Yeah!)
+Well, I should probably warn you I'll be just fine (Yeah!)
+No offense to you
+Don't waste your time, here's why
+
+(Because I'm happy)
+Clap along if you feel like a room without a roof
+(Because I'm happy)
+Clap along if you feel like happiness is the truth
+(Because I'm happy)
+Clap along if you know what happiness is to you
+(Because I'm happy)
+Clap along if you feel like that's what you wanna do");
+
+            Assert.IsTrue(result.Joy > 0.05);
+            Assert.IsTrue(result.Fear < 0.5);
+            Assert.IsTrue(result.Anger < 0.5);
+            Assert.IsTrue(result.Disgust < 0.5);
+            Assert.IsTrue(result.Sadness < 0.5); 
         }
     }
 }
