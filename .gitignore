@@ -1,7 +1,7 @@
 .vs/
 TestResults/
-EmotionAnalyzer/obj/
+Sent-Emo Analyzer/obj/Debug
 Tests/bin/
 Tests/obj/
 ExampleProjects/MultiLanguage SentEmo WinForm/bin/
-ExampleProjects/MultiLanguage SentEmo WinForm/obj/
+ExampleProjects/MultiLanguage SentEmo WinForm/obj/ 

@@ -1,0 +1,37 @@
+{
+    "name": "Sent-Emo Analyser",
+    "short_name": "Sent-Emo",
+    "version": "1.0",
+    "description": "Analyze selected text with Sent-Emo",
+    "author": "Lasha Bukhnikashvili",
+    "background": {
+        "scripts": [ "backworker.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"], 
+            "css": ["frontworker.css"],
+            "js": ["frontworker.js"]
+        }
+    ],
+    "permissions": [ 
+        "contextMenus",
+        "http://*/",
+        "https://*/", 
+        "storage",
+        "tabs"
+    ],
+    "icons": {
+        "128": "favicon.png"
+    },
+    "commands": {
+          "calculate-score-command": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+S",
+              "mac": "Command+Shift+S"
+            },
+            "description": "Analyze selected text with Sent-Emo"
+        }
+    },
+    "manifest_version": 2
+}
