@@ -33,8 +33,7 @@ And result looks like:
 
 In spite of a fact, that library only works for english text, in this example there is Multi-Language analyzer which uses **Google Cloud Translator API** for retrieving corresponding traslation.
 
-**Note:** The Quality of Sent-Emo library evaluation decreases for non-english text scoring, but still reflects "correct evaluation". 
-For more information about see [`this section`](#How accurate are the scores?)  
+[`Note: The Quality of Sent-Emo library evaluation decreases for non-english text scoring, but still reflects "correct evaluation". For more information about see this section`]
 
 | ![](example4.jpg) | ![](example3.jpg) |
 |--|--|
