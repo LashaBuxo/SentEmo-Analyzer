@@ -1,6 +1,6 @@
 # Welcome to Sent-Emo Open Source  Project!
 
-Sent-Emo Analyzer is open source **library**, which analyses given **English** text by emotion and its sentiment values. Below are the example projects and the materials used in project.
+Sent-Emo Analyzer is open source library, which analyses given **English** text by emotion and its sentiment values. Below are the example projects and the materials used in project.
 
 
 # How it Works?
@@ -27,12 +27,21 @@ And result looks like:
 ```
 
 ## Example Projects
-In spite of a fact, that library only works for english text, in example projects there is Multi-Language analyzer which uses **Google Cloud Translator**. 
+ 
 
-### Multi-Language Translator
+### Example Project 1: Multi-Language Translator
+
+In spite of a fact, that library only works for english text, in this example there is Multi-Language analyzer which uses **Google Cloud Translator API** for retrieving corresponding traslation.
+
+**Note:** The Quality of Sent-Emo library evaluation decreases for non-english text scoring, but still reflects "correct evaluation". 
+For more information about see [`this section`](#How accurate are the scores?)  
+
 | ![](example4.jpg) | ![](example3.jpg) |
 |--|--|
 | ![](example1.jpg) | ![](example2.jpg) |
+
+## How accurate are the scores?
+*empty*
 
 ## 3rd Party Resources
 
