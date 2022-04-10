@@ -9,3 +9,14 @@ E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Sent-Emo Analyzer\obj\Debug\Sen
 E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Sent-Emo Analyzer\obj\Debug\Sent-Emo Analyzer.dll
 E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Sent-Emo Analyzer\bin\Debug\Newtonsoft.Json.dll
 E:\Projects\Homeworks\OpenSource\EmotionAnalyzer\Sent-Emo Analyzer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\bin\Debug\Sent-Emo Analyzer.dll
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\bin\Debug\SharpEntropy.dll
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\bin\Debug\SharpWordNet.dll
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\obj\Debug\Sent-Emo Analyzer.csproj.AssemblyReference.cache
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\obj\Debug\SentEmo.Properties.Resources.resources
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\obj\Debug\Sent-Emo Analyzer.csproj.GenerateResource.cache
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\obj\Debug\Sent-Emo Analyzer.csproj.CoreCompileInputs.cache
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\obj\Debug\Sent-Emo Analyzer.csproj.CopyComplete
+C:\Users\lasha\Documents\GitHub\SentEmo-Analyzer\Sent-Emo Analyzer\obj\Debug\Sent-Emo Analyzer.dll

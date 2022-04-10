@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1169
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sent-Emo Analyzer", "Sent-Emo Analyzer\Sent-Emo Analyzer.csproj", "{418A33EB-54C2-48A2-8089-C5BBD630F588}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExampleProjects", "ExampleProjects", "{6BA54EE7-7FDE-47CE-AD37-131D0DEAB3C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLanguage SentEmo WinForm", "ExampleProjects\MultiLanguage SentEmo WinForm\MultiLanguage SentEmo WinForm.csproj", "{216D4E78-9D1B-4213-9943-683167BBDF92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentEmoApiRest", "ExampleProjects\SentEmoApiRest\SentEmoApiRest.csproj", "{5C4FD747-4094-46C0-9475-D9C83687DD26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +31,17 @@ Global
 		{216D4E78-9D1B-4213-9943-683167BBDF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{216D4E78-9D1B-4213-9943-683167BBDF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{216D4E78-9D1B-4213-9943-683167BBDF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4FD747-4094-46C0-9475-D9C83687DD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4FD747-4094-46C0-9475-D9C83687DD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4FD747-4094-46C0-9475-D9C83687DD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4FD747-4094-46C0-9475-D9C83687DD26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{216D4E78-9D1B-4213-9943-683167BBDF92} = {6BA54EE7-7FDE-47CE-AD37-131D0DEAB3C6}
+		{5C4FD747-4094-46C0-9475-D9C83687DD26} = {6BA54EE7-7FDE-47CE-AD37-131D0DEAB3C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97EA594E-F596-4176-BCBC-59DB0B0AABC0}
