@@ -27,7 +27,20 @@ And result looks like:
 ```
 
 ## Example Projects
- 
+
+Based on **library** there are 3 created project, which aims to show library *in action.*'
+
+1st project - completed. 
+2nd project - soon...
+3rd project - soon...
+
+ ![](example_projects_design.png)
+
+### Example Project 3: Sent-Emo Chrome Extension
+*empty*
+
+### Example Project 2: Sent-Emo API - localhost
+*empty*
 
 ### Example Project 1: Multi-Language Translator
 
@@ -38,6 +51,7 @@ In spite of a fact, that library only works for english text, in this example th
 | ![](example4.jpg) | ![](example3.jpg) |
 |--|--|
 | ![](example1.jpg) | ![](example2.jpg) |
+
 
 ## How accurate are the scores?
 *empty*
