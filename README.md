@@ -27,12 +27,12 @@ And result looks like:
 ```
 
 ## Example Projects
+ 
+Based on the **sent-emo library** there is 3 project, which aims to show the sent-emo library in action:'
 
-Based on **library** there are 3 created project, which aims to show library *in action.*'
-
-1st project - completed. 
-2nd project - soon...
-3rd project - soon...
+  1st project - completed. 
+  2nd project - soon...
+  3rd project - soon...
 
  ![](example_projects_design.png)
 
